@@ -158,7 +158,12 @@ button:hover{
     padding-bottom: 10px;
     font-weight: bold;
   }
-
+.tablet{
+    display: none;
+}
+.desktop{ 
+    display: none;
+}
 
 /* TABS  */
 .tabs {
@@ -270,6 +275,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .tablet{
+        display: block;
+    }
 }
 
 /* media for desktop  */ 
@@ -304,5 +312,8 @@ footer{
     }
     .mission{
         display: inherit;
+    }
+    .desktop{
+        display: block;
     }
 }
