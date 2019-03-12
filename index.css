@@ -111,8 +111,18 @@ header .navbar a:hover{
 	font-weight:bold;
 	text-align:center;
 	display:flex;
-    margin: 20px 50px;
+    margin: 20px auto;
 	/* border: 1px solid red; */
+}
+.about-main{
+    width: 98%;
+	text-align:center;
+    margin: 20px auto;
+}
+.about-main h1{
+    font-weight: bold;
+    font-size: 25px;
+    
 }
 
 /* BUTTONS */
@@ -217,7 +227,13 @@ button:hover{
 .reviewImg{
     width: 50px;
 }
-
+/* About Images */
+.aboutImg {
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    margin: 20px;
+}
  /* bottom section */
 .signUp{
     width: 90%;
