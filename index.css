@@ -71,12 +71,12 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
-    width: 90%;
+    /* width: 98%; */
 	display:flex;
     flex-direction: column;
     align-items: center;
     color: #FF8B7B;
-    margin:20px 50px;
+    margin:20px auto;
     /* border: 1px solid red; */
 }
 header h1{
@@ -86,14 +86,14 @@ header h1{
 }
 header .navbar{
 margin:0 auto;
-width: 90%;
+width: 100%;
 padding: 0;
 /* border: 1px solid red; */
 }
 
 header .navbar a{
     display: block;
-    width: 90%;
+    width: 100%;
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid #FED955;
@@ -115,14 +115,14 @@ header .navbar a:hover{
 	/* border: 1px solid red; */
 }
 .about-main{
-    width: 98%;
+    width: 100%;
 	text-align:center;
     margin: 20px auto;
 }
 .about-main h1{
     font-weight: bold;
     font-size: 25px;
-    
+
 }
 
 /* BUTTONS */
@@ -316,6 +316,7 @@ footer{
     header .navbar{
         display: flex;
         flex-direction: row;
+        align-content: flex-end;
     }
 	header .navbar a{
         width:30%;
