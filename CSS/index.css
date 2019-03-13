@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5 {
     }
     .mission h2{
         font-size: 25px;
-        
+        letter-spacing: 1.5px;
     }
     .mission p{
         font-weight: normal;
