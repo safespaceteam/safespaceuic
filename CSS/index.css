@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5 {
         text-align:center;
         display:flex;
         margin: 20px auto;
+        line-height: 1.5;
         /* border: 1px solid red; */
     }
     .mission h2{
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5 {
         width: 100%;
         text-align:center;
         margin: 20px auto;
+        line-height: 1.5;
     }
     .about-main h1{
         font-weight: bold;
@@ -303,7 +305,7 @@ h1, h2, h3, h4, h5 {
         }
         .section{
             display: flex;
-            flex-direction: column;
+            flex-direction: column;  
         }
         .tablet{
             display: block;
