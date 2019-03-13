@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5 {
         width: 100%;
         text-align:center;
         margin: 20px auto;
+        line-height: 1.5;
     }
     .about-main h1{
         font-weight: bold;
