@@ -117,6 +117,14 @@ h1, h2, h3, h4, h5 {
         margin: 20px auto;
         /* border: 1px solid red; */
     }
+    .mission h2{
+        font-size: 25px;
+        
+    }
+    .mission p{
+        font-weight: normal;
+        
+    }
 
 /* About main body */
     .about-main{
