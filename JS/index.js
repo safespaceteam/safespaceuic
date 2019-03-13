@@ -1,9 +1,7 @@
 class TabLink {
     constructor(element) {
-      // Assign this.element to the passed in DOM element
-      this.element = element;
       
-      // Get the custom data attribute on the Link
+      this.element = element;
       this.data = this.element.dataset.tab;
       
       // Using the custom data attribute get the associated Item element
@@ -19,7 +17,7 @@ class TabLink {
     };
   
     select() {
-      // Get all of the elements with the tabs-link class
+      // Getting all of the elements with the tabs-link class
       const links = document.querySelectorAll('.tabs-link');
   
       // Using a loop or the forEach method remove the 'tabs-link-selected' class from all of the links
@@ -37,36 +35,26 @@ class TabLink {
   
   class TabItem {
     constructor(element) {
-      // Assign this.element to the passed in element
       this.element = element;
     }
   
     select() {
-      // Select all ".tabs-item" elements from the DOM
     const items = document.querySelectorAll('.tabs-item');
-      
-      // Remove the class "tabs-item-selected" from each element
     items.forEach(element => {
     element.classList.remove('tabs-item-selected');
     });
-      // Add a class named "tabs-item-selected" to this element
       this.element.classList.add('tabs-item-selected');
-     // TweenMax.from(".tabs-item-selected", 1.5, {y: 50, opacity: 0});
     }
   }
   
-  /* START HERE: 
-  
-  - Select all classes named ".tabs-link" and assign that value to the links variable
-  
-  - With your selection in place, now chain a .forEach() method onto the links variable to iterate over the DOM NodeList
-  
-  - In your .forEach() method's callback function, return a new instance of TabLink and pass in each link as a parameter
-  
-  */
   let links = document.querySelectorAll('.tabs-link');
   
-  links.forEach(link => {
-    return new TabLink(link);
-  })
+  // links.forEach(link => {
+  //   return new TabLink(link);
+  // })
   
+  // for stretch goals we have to use .map() or
+  links = Array.from(links)
+  links.map( function(link) {
+    return new TabLink(link);
+  });
