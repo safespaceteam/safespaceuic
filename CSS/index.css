@@ -147,6 +147,7 @@ h1, h2, h3, h4, h5 {
         align-items: center;
         
     }
+
     .row{
         width: 450px;
         flex-direction: row; 
@@ -157,9 +158,11 @@ h1, h2, h3, h4, h5 {
         color: #FF8B7B;
         border-top:1px dotted #FF8B7B
     }
+
     .row p{
         align-items: center;
     }
+
     icon {
         display: none;
         border: solid #FF8B7B;
@@ -167,7 +170,7 @@ h1, h2, h3, h4, h5 {
         padding: 3px;
         margin-bottom: 6px;
 
-      }
+    }
       
       .right {
         transform: rotate(-45deg);
@@ -178,6 +181,7 @@ h1, h2, h3, h4, h5 {
         transform: rotate(135deg);
         -webkit-transform: rotate(135deg);
       }
+      
 /* Index HTML Main */
     .main{
         width: 90%;
