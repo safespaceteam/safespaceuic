@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5 {
     .row p{
         align-items: center;
     }
-    i {
+    icon {
         border: solid #FF8B7B;
         border-width: 0 3px 3px 0;
         display: inline-block;
